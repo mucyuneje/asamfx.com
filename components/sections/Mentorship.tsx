@@ -37,8 +37,14 @@ const paymentInfo = {
   bkAccount: "000490777151864 / Ahishakiye Samuel",
 };
 
+type MentorshipPlan = {
+  name: string;
+  price: string;
+  features: string[];
+};
+
 export default function Mentorship() {
-  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [selectedPlan, setSelectedPlan] = useState<MentorshipPlan | null>(null);
 
   return (
     <section
