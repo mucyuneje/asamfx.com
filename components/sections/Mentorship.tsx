@@ -93,7 +93,7 @@ export default function Mentorship() {
         </div>
       </div>
 
-      {/* Modal */}
+      {/* Modal*/}
       {selectedPlan && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm z-50">
           <motion.div
