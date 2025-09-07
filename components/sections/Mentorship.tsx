@@ -31,9 +31,9 @@ const mentorshipPlans = [
 
 // Payment + Help Info (from flyer)
 const paymentInfo = {
-  help: "0783165788",
+  help: "0783136788",
   momoCode: "644696 / Samuel",
-  momoNumber: "0783165788 / Ahishakiye Samuel",
+  momoNumber: "0783136788 / Ahishakiye Samuel",
   bkAccount: "000490777151864 / Ahishakiye Samuel",
 };
 
